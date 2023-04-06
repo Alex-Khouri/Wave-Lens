@@ -1,1 +1,0 @@
-java -classpath "./Classes:./Libraries/JFreeChart/*:./Libraries/OrsonPDF/*" --module-path "./Libraries/JavaFX/javafx-sdk-17.0.6/lib" --add-modules ALL-MODULE-PATH AudioLoopTest

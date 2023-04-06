@@ -1,1 +1,0 @@
-javac -classpath "./Libraries/JFreeChart/*;./Libraries/OrsonPDF/*;./Libraries/JavaFX/javafx-sdk-17.0.6/lib/*" -d "Classes" AudioLoopTest.java
