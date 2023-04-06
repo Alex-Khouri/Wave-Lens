@@ -1,0 +1,6 @@
+# Ensure this file has the extension '.sh' before executing
+# To make this shell file executable, run the following command: chmod +x build_audio_loop_test_mac.sh
+pyinstaller --onefile --noconsole --noconfirm --icon "./Images/audio_loop_test.icns" --name "Audio Loop Test" --distpath "./Audio Loop Test" "audio_loop_test.py"
+rm -rf "./build"
+rm -rf "./Audio Loop Test.spec"
+read -t 60 -p "Build complete! Press any key to exit."
