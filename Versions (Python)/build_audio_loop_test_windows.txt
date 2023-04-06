@@ -1,6 +1,0 @@
-@rem Ensure this file has the extension '.cmd' before executing
-@echo OFF
-pyinstaller --onefile --noconsole --noconfirm --icon "./Images/audio_loop_test.ico" --name "Audio Loop Test" --distpath ./ "audio_loop_test.py"
-del "Audio Loop Test.spec"
-rmdir /s /q "build"
-timeout 60
